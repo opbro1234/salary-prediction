@@ -12,7 +12,7 @@ import pandas as pd
 import joblib
 
 model = joblib.load("model.pkl")
-encoders = joblib.load('label_encoders_sp (1).pkl')
+encoders = joblib.load('label_encoder_sp (1).pkl')
 st.title("salary Prediction App")
 
 age = st.number_input("Age", 18, 65, 25)
